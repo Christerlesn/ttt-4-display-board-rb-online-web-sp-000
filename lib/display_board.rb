@@ -16,3 +16,16 @@ display_board(board)
 puts "Turn 1"
 board = [" "," "," "," ","X"," "," "," "," "]
 display_board(board)
+
+puts "A board with X winning via filling the top row"
+board = ["X", "X", "X", " ", " ", " ", " ", " ", " "]
+display_board(board)
+
+puts "A random board after 5 turns"
+board = ["O", "X", " ", " ", "X", " ", "X", "O", " "]
+display_board(board)
+
+puts "A board filled entirely with O"
+board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
+display_board(board)
+
