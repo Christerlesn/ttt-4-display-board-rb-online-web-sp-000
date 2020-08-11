@@ -28,4 +28,3 @@ display_board(board)
 puts "A board filled entirely with O"
 board = ["O", "O", "O", "O", "O", "O", "O", "O", "O"]
 display_board(board)
-
