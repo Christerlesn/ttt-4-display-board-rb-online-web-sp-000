@@ -15,4 +15,3 @@ display_board
 puts "First move"
 board = [" "," "," "," ","X"," "," "," "," "]
 display_board
-
