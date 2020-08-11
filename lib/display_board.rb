@@ -1,10 +1,19 @@
-board = [" "," "," "," "," "," "," "," "," "]
-def display_board (board)
+def display_board
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-end
+end #Building a machine.
 
-display_board(board)
+puts "Welcome to Tic Tac Toe!"
+
+display_board
+
+puts "Blank board"
+board = [" "," "," "," "," "," "," "," "," "]
+display_board
+
+pust "first move, X went in middle"
+board = [" "," "," "," ","X"," "," "," "," "]
+display_board
